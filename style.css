@@ -1,0 +1,110 @@
+:root{
+    --very-dark     :hsl(300, 43%, 22%);
+    --soft-pink     :hsl(333, 80%, 67%);
+    --dark          :hsl(303, 10%, 53%);
+    --light         :hsl(300, 24%, 96%);
+    --white         :hsl(0, 0%, 100%);
+
+    --fs15          :15px;
+    --font-spartan  :'League Spartan', sans-serif;;
+}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+/* 400 500 700 */
+body{
+    max-width: 1440px;
+    font-family: var(--font-spartan);
+}
+.container{
+    width: 1100px;
+    position: relative;
+    left: 140px;
+    top: 150px;
+    height: 772px;
+}
+.head{
+    width: 400px;
+}
+h1{
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--very-dark);
+}
+p{
+    font-weight: 400;
+    color: var(--dark);
+    line-height: 1.5;
+}
+.rateds{
+    position: absolute;
+    left: 500px;
+    top: 40px;
+}
+.rate{
+    color: var(--very-dark);
+    font-weight: 700;
+    font-size: 16px;
+}
+.star{
+    top: 5px;
+    right: 25px;
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.report{
+    margin-left: 50px;
+    margin-top: 45px;
+}
+.besttech{
+    margin-left: 100px;
+    margin-top: 45px;
+}
+.cards{
+    margin-top: 60px;
+}
+.card{
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 7px;
+    background-color: var(--very-dark);
+    width: 280px;
+    height: 185px;
+    float: left;
+    margin-right: 30px;
+}
+.two{   
+    margin-top: 20px;
+}
+.there{
+    margin-top: 40px;
+}
+.card-body{
+    width: 256px;
+    font-size: 15px;
+}
+.card-img{
+    display: inline-block;
+}
+.img{
+    width: 37px;
+    border-radius: 100%;
+}
+.card-head{
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+.card-header{
+    font-weight: 500;
+    color: var(--white);
+}
+.card-subheader{
+    margin-top: 5px;
+    color: var(--soft-pink);
+    font-weight: 400;
+}
+.card-text{
+    color: var(--light);
+    font-weight: 400;
+    line-height: 1.5;
+}
