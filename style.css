@@ -107,3 +107,31 @@ p{
     font-weight: 400;
     line-height: 1.5;
 }
+@media all and (max-width:375px) {
+    body{
+        text-align: center;
+    }
+    .container{
+        left: initial;
+        top: 70px;
+        width: 305px;
+    }
+    .rateds{
+        position: relative;
+        top: initial;
+        left: 20px;
+        text-align: center;
+    }
+    .rate{
+        position: relative;
+    }
+    .star{
+        top: -10px;
+    }
+    .report{
+        margin-left: 0;
+    }
+    .besttech{
+        margin-left: 0;
+    }
+}
