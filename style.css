@@ -129,6 +129,9 @@ p{
         left: 15px;
         text-align: center;
     }
+    .rate{
+        margin-left: initial;
+    }
     .star{
         margin-top: 20px;
         top: -10px;
