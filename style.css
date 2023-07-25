@@ -113,23 +113,34 @@ p{
     }
     .container{
         left: initial;
-        top: 70px;
-        width: 305px;
+        top: 50px;
+        width: 332px;
+    }
+    .head{
+        width: 290px;
+        margin-left: 30px;
     }
     .rateds{
         position: relative;
         top: initial;
-        left: 20px;
+        left: 15px;
         text-align: center;
     }
-    
     .star{
+        margin-top: 20px;
         top: -10px;
+        left: 2px;
+    }
+    .stars-text{
+        margin-top: 3px;
     }
     .report{
         margin-left: 0;
     }
     .besttech{
         margin-left: 0;
+    }
+    .cards{
+        margin-left: 25px;
     }
 }
