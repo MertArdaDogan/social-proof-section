@@ -85,13 +85,15 @@ p{
     display: inline-block;
 }
 .img{
-    width: 37px;
+    width: 40px;
     border-radius: 100%;
 }
 .card-head{
     display: inline-block;
+    position: relative;
+    bottom: 5px;
     margin-left: 15px;
-    margin-bottom: 25px;
+    padding-bottom: 20px;
 }
 .card-header{
     font-weight: 500;
@@ -141,6 +143,7 @@ p{
         margin-left: 0;
     }
     .cards{
+        text-align: initial;
         margin-left: 25px;
     }
 }
