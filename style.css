@@ -15,10 +15,10 @@ body{
 }
 .container{
     width: 1050px;
-    position: relative;
-    left: 110px;
-    top: 130px;
-    height: 750px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .head{
     width: 400px;
@@ -115,9 +115,12 @@ p{
         text-align: center;
     }
     .container{
-        left: initial;
-        top: 50px;
         width: 332px;
+        height: 800px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
     .head{
         width: 290px;
